@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Meddon";
+  src: url("../fonts/Meddon-Regular.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("../fonts/RobotoSlab-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "RobotoSlab";
+  background: url("../img/pizza.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.header {
+  background-color: #000000aa;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  background-color: #000000aa;
+  display: flex;
+  justify-content: center;
+  padding:  0 0 20px 0;
+}
+
+h1 {
+  font-family: "Meddon";
+  font-size: 48px;
+  color: #ffffff;
+  margin: 40px 0 0 0;
+
+}
+
+.menu ul {
+  display: flex;
+  gap: 50px;
+  padding: 0;
+}
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #cccccc;
+  padding: 5px 10px;
+}
+
+.menu ul li a:hover {
+  color: #ffffff;
+  background-color: #ffffff33;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main p {
+  flex: 0 1 500px;
+  padding: 50px;
+  background-color: #000000aa;
+  color: #cccccc;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #000000aa;
+  display: flex;
+  justify-content: center;
+  padding:  10px;
+}
+
+.footer span {
+  color: #666666;
+}
+
