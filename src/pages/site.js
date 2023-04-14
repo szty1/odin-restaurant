@@ -35,6 +35,7 @@ function createNavItem(caption, loadfunction) {
   const link = document.createElement("a");
   
   link.innerHTML = caption;
+  link.href = "#";
 
   link.addEventListener("click", (e) => {
     e.preventDefault();
