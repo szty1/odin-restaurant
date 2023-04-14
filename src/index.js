@@ -1,5 +1,7 @@
-import home from './pages/home';
+import createSite from './pages/site';
 
-import './styles/style.css';
+createSite();
+
+
 
 

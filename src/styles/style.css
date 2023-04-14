@@ -37,7 +37,7 @@ body {
   justify-content: center;
 }
 
-.menu {
+.nav {
   background-color: #000000aa;
   display: flex;
   justify-content: center;
@@ -52,24 +52,24 @@ h1 {
 
 }
 
-.menu ul {
+.nav ul {
   display: flex;
   gap: 50px;
   padding: 0;
 }
 
-.menu ul li {
+.nav ul li {
   list-style-type: none;
 }
 
-.menu ul li a {
+.nav ul li a {
   text-decoration: none;
   font-size: 18px;
   color: #cccccc;
   padding: 5px 10px;
 }
 
-.menu ul li a:hover {
+.nav ul li a:hover {
   color: #ffffff;
   background-color: #ffffff33;
 }
