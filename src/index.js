@@ -1,3 +1,5 @@
-import './style.css';
+import home from './pages/home';
 
-console.log("It's alive!");
+import './styles/style.css';
+
+
